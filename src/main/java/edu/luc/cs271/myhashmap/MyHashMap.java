@@ -171,8 +171,7 @@ public class MyHashMap<K, V> implements Map<K, V> {
 
   @Override
   public String toString() {
-    // TODO return the string representation of the underlying table
-    return "";
+    return "key=value \n" + table;
   }
 
   public boolean equals(final Object that) {
